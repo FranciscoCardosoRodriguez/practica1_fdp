@@ -1,0 +1,114 @@
+Niger28:~ alumno$ ls
+Desktop		Downloads	Library		Pictures
+Niger28:~ alumno$ mkdir FundamentosDeProgramacion
+Niger28:~ alumno$ mkdir Algebra
+Niger28:~ alumno$ mkdir CalculoYGeometriaAnalitica
+Niger28:~ alumno$ mkdir Quimica
+Niger28:~ alumno$ mkdir Fisica
+Niger28:~ alumno$ ls
+Algebra				Downloads			Library
+CalculoYGeometriaAnalitica	Fisica				Pictures
+Desktop				FundamentosDeProgramacion	Quimica
+Niger28:~ alumno$ cd Algebra
+Niger28:Algebra alumno$ touch archivo.txt
+Niger28:Algebra alumno$ ls
+archivo.txt
+Niger28:Algebra alumno$ cd..
+-bash: cd..: command not found
+Niger28:Algebra alumno$ cd ..
+Niger28:~ alumno$ cd CalculoYGeometriaAnalitica
+Niger28:CalculoYGeometriaAnalitica alumno$ touch archivo.txt
+Niger28:CalculoYGeometriaAnalitica alumno$ lw
+-bash: lw: command not found
+Niger28:CalculoYGeometriaAnalitica alumno$ ls
+archivo.txt
+Niger28:CalculoYGeometriaAnalitica alumno$ cd ..
+Niger28:~ alumno$ cd Fisica
+Niger28:Fisica alumno$ touch archivo.txt
+Niger28:Fisica alumno$ ls
+archivo.txt
+Niger28:Fisica alumno$ cd ..
+Niger28:~ alumno$ cd FundamentosDeProgramacion
+Niger28:FundamentosDeProgramacion alumno$ touch archivo.txt
+Niger28:FundamentosDeProgramacion alumno$ ls
+archivo.txt
+Niger28:FundamentosDeProgramacion alumno$ cd ..
+Niger28:~ alumno$ cd Quimica
+Niger28:Quimica alumno$ touch archivo.txt
+Niger28:Quimica alumno$ ls
+archivo.txt
+Niger28:Quimica alumno$ cd ..
+Niger28:~ alumno$ ls
+Algebra				Downloads			Pictures
+CalculoYGeometriaAnalitica	Fisica				Quimica
+Desktop				FundamentosDeProgramacion
+Documents			Library
+Niger28:~ alumno$ cd Algebra
+Niger28:Algebra alumno$ echo "Francisco Adrian Cardoso Rodriguez" >> archivo.txt
+Niger28:Algebra alumno$ echo "317158256" >> archivo.txt
+Niger28:Algebra alumno$ ls
+archivo.txt
+Niger28:Algebra alumno$ cat archivo.txt
+Francisco Adrian Cardoso Rodriguez
+317158256
+Niger28:Algebra alumno$ cd ..
+Niger28:~ alumno$ cd CalculoYGeometriaAnalitica
+Niger28:CalculoYGeometriaAnalitica alumno$ echo "Francisco Adrian Cardoso Rodriguez" >> archivo.txt
+Niger28:CalculoYGeometriaAnalitica alumno$ echo "317158256" >> archivo.txt
+Niger28:CalculoYGeometriaAnalitica alumno$ ls
+archivo.txt
+Niger28:CalculoYGeometriaAnalitica alumno$ cat archivo.txt
+Francisco Adrian Cardoso Rodriguez
+317158256
+Niger28:CalculoYGeometriaAnalitica alumno$ cd ..
+Niger28:~ alumno$ cd Fisica
+Niger28:Fisica alumno$ echo "Francisco Adrian Cardoso Rodriguez" >> archivo.txt
+Niger28:Fisica alumno$ echo "317158256" >> archivo.txt
+Niger28:Fisica alumno$ ls
+archivo.txt
+Niger28:Fisica alumno$ cat archivo.txt
+Francisco Adrian Cardoso Rodriguez
+317158256
+Niger28:Fisica alumno$ cd ..
+Niger28:~ alumno$ cd FundamentosDeProgramacion
+Niger28:FundamentosDeProgramacion alumno$ echo "Francisco Adrian Cardoso Rodriguez" >> archivo.txt
+Niger28:FundamentosDeProgramacion alumno$ echo "317158256" >> archivo.txt
+Niger28:FundamentosDeProgramacion alumno$ ls
+archivo.txt
+Niger28:FundamentosDeProgramacion alumno$ cat archivo.txt
+Francisco Adrian Cardoso Rodriguez
+317158256
+Niger28:FundamentosDeProgramacion alumno$ cd Quimica
+-bash: cd: Quimica: No such file or directory
+Niger28:FundamentosDeProgramacion alumno$ cd ..
+Niger28:~ alumno$ cd Quimica
+Niger28:Quimica alumno$ echo "Francisco Adrian Cardoso Rodriguez" >> archivo.txt
+Niger28:Quimica alumno$ echo "3171582562 >> archivo.txt
+> 
+> 
+> ls
+> cd ..
+> "
+3171582562 >> archivo.txt
+
+
+ls
+cd ..
+
+Niger28:Quimica alumno$ cat archivo.txt
+Francisco Adrian Cardoso Rodriguez
+Niger28:Quimica alumno$ echo "317158256" >> archivo.txt
+Niger28:Quimica alumno$ ls
+archivo.txt
+Niger28:Quimica alumno$ cat archivo.txt
+Francisco Adrian Cardoso Rodriguez
+317158256
+Niger28:Quimica alumno$ cd..
+-bash: cd..: command not found
+Niger28:Quimica alumno$ cd ..
+Niger28:~ alumno$ ls
+Algebra				Downloads			Pictures
+CalculoYGeometriaAnalitica	Fisica				Quimica
+Desktop				FundamentosDeProgramacion
+Documents			Library
+Niger28:~ alumno$ 
