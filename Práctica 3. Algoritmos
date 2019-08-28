@@ -49,5 +49,5 @@ Algoritmo
 2. Si d es un número natural y menor o igual a 31, es un día válido, sino es una fecha inválida.
 3. Si m es un número natural y menor o igual a 12, es un mes válido, sino es una fecha inválida.
 4. Si a es un número natural se trata de un año válido, sino es una fecha inválida.
-5. Si m es igual a 2, d=28
+5. Si m es igual a 2, d tiene que ser igual a 28 o 29 si es año bisiesto, de otro modo, es una fecha inválida.
 
