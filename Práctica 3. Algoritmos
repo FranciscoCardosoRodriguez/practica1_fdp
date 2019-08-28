@@ -1,0 +1,53 @@
+PROBLEMA:Dado un precio calcular su descuento considerando que si el precio es mayor a 100 pesos el descuento será del 10% de otro modo descontar solo un 2%
+
+ENTRADA: Precio (p)
+
+SALIDA: Precio con descuento del 10% o del 2%
+
+Algoritmo
+1. Si p>100 entonces el descuento será de 10%
+2. Si p<= 100 entonces el descuento será de 2%
+3. Realizar las siguientes operaciones según sea el caso
+  a) Si p>100 entonces multiplicar p por .1 y restar el resultado a p, ese es tu descuento.
+  b) si p<=100 entonces multiplicar p por .02 y restar el resultado a p, ese es tu descuento.
+  
+  
+  
+
+PROBLEMA: Realizar suma, resta, multiplicación y división a 2 número dados
+
+ENTRADA: num1
+         num2
+
+SALIDA: Resultado multiplicación (m)
+        Resultado suma (s)
+        Resultado resta (r)
+        Resultado división (d)
+        
+Algoritmo
+1. Realizar las siguientes operaciones:
+   a. num1*num2=m
+   b. num1+num2=s
+   c. num1-num2=r
+   d. num1/num2=d
+2. Imprimir m, s, r y d.
+   
+   
+   
+   
+       
+PROBLEMA: Dados 3 números que representan una fecha, verificar si es una fecha válida
+
+ENTRADA: 1 número que representa el día (d)
+         1 número que representa el mes (m)
+         1 número que representa el año (a)
+         
+SALIDA: Fecha válida o fecha inválida
+
+Algoritmo
+1. Leer el día (d), el mes (m) y el año (a)
+2. Si d es un número natural y menor o igual a 31, es un día válido, sino es una fecha inválida.
+3. Si m es un número natural y menor o igual a 12, es un mes válido, sino es una fecha inválida.
+4. Si a es un número natural se trata de un año válido, sino es una fecha inválida.
+5. Si m es igual a 2, d=28
+
